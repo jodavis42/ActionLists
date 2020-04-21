@@ -1,0 +1,43 @@
+{
+  "Root": [
+    {
+      "Name": "test",
+      "Sequence": [
+        {
+          "Delay": 1.0
+        },
+        {
+          "Definition": "MyDef"
+        }
+      ]
+    }
+  ],
+  "Definitions": {
+    "MyDef": {
+      "Sequence": [
+        {
+          "Print": "This is a test print"
+        },
+        {
+          "Delay": 1.0
+        },
+        {
+          "Definition": "MyDef2"
+        }
+      ]
+    },
+    "MyDef2": {
+      "Sequence": [
+        {
+          "Print": "This is a test print2"
+        },
+        {
+          "Delay": 1.0
+        },
+        {
+          "Definition": "MyDef"
+        }
+      ]
+    }
+  }
+}
